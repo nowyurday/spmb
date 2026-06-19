@@ -1,10 +1,10 @@
 import mysql.connector
 
-MYSQLHOST = "acela.proxy.rlwy.net" 
+MYSQLHOST = "thomas.proxy.rlwy.net" 
 MYSQLUSER = "root"  
-MYSQLPASSWORD = "vfVgpsyEOStXtvhdtsAgzBmuDKLlqRpN"  
+MYSQLPASSWORD = "BZnQhPaxVtdeAIhUiMHGHNdjWyQKxIdM"  
 MYSQLDATABASE = "railway"
-MYSQLPORT = 57189
+MYSQLPORT = 28256
 
 try:
     conn = mysql.connector.connect(
